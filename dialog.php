@@ -52,6 +52,9 @@
             case 'settings':
                 include('templates/settings.php');
                 break;
+            case 'tags':
+                include('templates/tags.html');
+                break;
             case 'userConfig':
                 include('templates/userConfig.html');
                 break;
